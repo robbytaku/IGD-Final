@@ -1,8 +1,6 @@
 /// @description Player Movement
 if keyboard_check(ord("D")) {
 	hspeed_ = 10;	
-} else if keyboard_check(ord("A")) {
-	hspeed_ = -10;	
 } else {
 	hspeed_ = 0;	
 }
@@ -12,7 +10,7 @@ if !place_meeting(x, y+1, o_solid) {
 }
 	
 if keyboard_check(vk_space) {
-		vspeed_ = -20;
+		vspeed_ = -10;
 	}
 
 if place_meeting(x+hspeed_, y, o_solid) {
