@@ -52,4 +52,5 @@ if (hit == 0)
 
 if (hp <= 0) {
 	room_goto(MainMenu);
+	audio_stop_all();
 }

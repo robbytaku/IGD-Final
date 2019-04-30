@@ -13,6 +13,10 @@ if place_meeting(x+hspeed_, y, o_solid) {
 	sprite_index = s_person;
 }
 
+if (dir = 1) {
+	sprite_index = s_personflipped;	
+}
+
 x += hspeed_;
 
 if place_meeting(x, y+vspeed_, o_solid) {

@@ -1,0 +1,1 @@
+audio_play_sound(s_outside,3,true);
