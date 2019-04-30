@@ -13,3 +13,9 @@ if (instance_exists(o_player)){
 }
 
 cooldown -= 1;
+
+if (o_player.x <= o_soldier.x) {
+	sprite_index = s_soldier;
+} else {
+	sprite_index = s_soldierflipped;	
+}

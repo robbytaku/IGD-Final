@@ -49,3 +49,7 @@ if (hit == 0)
 	o_player.image_alpha = 1;
 	image_alpha = 1;
 }
+
+if (hp <= 0) {
+	room_goto(MainMenu);
+}

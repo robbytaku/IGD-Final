@@ -199,19 +199,19 @@
             }
         },
         {
-            "Key": "7ab0c65c-fb0b-4122-b44e-7a66a077b565",
-            "Value": {
-                "id": "e69b877e-e350-415a-abad-d0a6d38170a1",
-                "resourcePath": "sprites\\s_soldier\\s_soldier.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "8259007b-4864-457c-b214-a25f2a639772",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "865aacf6-371d-4c6b-9d72-ba885fa52014",
+            "Value": {
+                "id": "c146a476-4fbf-4212-a597-2c6ba7ec9f38",
+                "resourcePath": "objects\\o_credits\\o_credits.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "de818e36-d0cb-4b76-b0a4-d16346825a4c",
+            "Value": {
+                "id": "be2ecf8b-693f-49c4-8ed2-6fe8083a6fc7",
+                "resourcePath": "sprites\\s_soldier\\s_soldier.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e3d89689-f568-4700-b8d9-824d16d6c01b",
             "Value": {
                 "id": "d89bdca6-33e5-47de-abd0-794e1a493edc",
@@ -420,6 +428,14 @@
                 "id": "f8a65120-8a53-4d37-a124-1ea9b57d2f83",
                 "resourcePath": "views\\fa70b510-3087-402a-b13d-ecf046fb651b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fad0f466-f33c-43a1-b26f-2c8d6203680e",
+            "Value": {
+                "id": "08cffc68-364b-4cfa-9821-a25d7c5cb6c7",
+                "resourcePath": "rooms\\Credits\\Credits.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

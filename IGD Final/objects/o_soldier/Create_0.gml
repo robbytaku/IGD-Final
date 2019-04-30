@@ -1,3 +1,3 @@
 hit = 0;
-spd = 1;
+spd = 2;
 cooldown = 0;
