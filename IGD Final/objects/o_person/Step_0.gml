@@ -10,6 +10,7 @@ if place_meeting(x+hspeed_, y, o_solid) {
 	hspeed_ = 0;
 	
 	dir *= -1;
+	sprite_index = s_person;
 }
 
 x += hspeed_;
