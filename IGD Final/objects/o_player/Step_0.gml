@@ -36,3 +36,16 @@ y += vspeed_;
 if (gravity_ == 0) {
 	gravity_ = 1;
 }
+
+if (invincibility >= 20) hit = 0;
+if (hit == 1)
+{
+	image_alpha = 0.5;
+	o_player.image_alpha = 0.5;
+	invincibility += 1;
+}
+if (hit == 0) 
+{
+	o_player.image_alpha = 1;
+	image_alpha = 1;
+}

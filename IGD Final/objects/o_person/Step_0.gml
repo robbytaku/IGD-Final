@@ -2,6 +2,7 @@
 hspeed_ = dir * movespeed;
 vspeed_ += grav;
 
+
 if place_meeting(x+hspeed_, y, o_solid) {
 	while !place_meeting(x+sign(hspeed_), y, o_solid) {
 		x += sign(hspeed_);	
